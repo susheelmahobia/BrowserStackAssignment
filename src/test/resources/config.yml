@@ -1,0 +1,27 @@
+browserstack:
+  url: "http://yaminigupta_gkor3v:Xi2VumqMuVxo6SoPsQ9E@hub-cloud.browserstack.com/wd/hub"
+
+translate:
+  api:
+    url: "https://google-translate113.p.rapidapi.com/api/v1/translator/text"
+    key: "0b6ba5b783mshec20ab2bac5e560p172087jsnfd6b892cf57b"
+    host: "google-translate113.p.rapidapi.com"
+
+platforms:
+  - browser: "safari"
+    device: "iPhone 15 Pro Max"
+    os_version: "17"
+  - browser: "chrome"
+    device: "Samsung Galaxy Tab S9"
+    os_version: "13"
+  - browser: "chromium"
+    device: "iPad 9th"
+    os_version: "18"
+  - browser: "chrome"
+    os: "Windows"
+    os_version: "11"
+    browser_version: "latest"
+  - browser: "edge"
+    os: "Windows"
+    os_version: "10"
+    browser_version: "latest"
