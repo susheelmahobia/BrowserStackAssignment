@@ -1,0 +1,38 @@
+12:57:32.434 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.21.0
+12:57:32.436 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:57:32.843 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+12:57:32.849 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\susheel.mahobia\OneDrive - Gemini Solutions\IdeaProjects\BrowserStackAssignment\browserstack.yml
+12:57:32.977 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:57:34.138 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:57:34.161 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: db40ba83-44f2-4819-8b20-98eb33d007d3
+12:57:34.161 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:57:39.022 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:57:44.777 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: aftvr7ufx6v8iswtzxuwesdz1fuvqqxbei16t8sq
+12:57:44.777 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:57:44.777 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:58:12.354 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:00:55.304 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/aftvr7ufx6v8iswtzxuwesdz1fuvqqxbei16t8sq to view build report, insights, and many more debugging information all at one place!
+
+13:00:55.304 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:01:02.291 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/8a96a9a11212c307b46fedd71456fccba00b2d9e
+13:01:02.291 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:01:02.333 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: db40ba83-44f2-4819-8b20-98eb33d007d3, testhub id: aftvr7ufx6v8iswtzxuwesdz1fuvqqxbei16t8sq
+13:01:02.333 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:02:54.908 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.21.0
+13:02:54.909 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:02:55.288 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+13:02:55.289 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\susheel.mahobia\OneDrive - Gemini Solutions\IdeaProjects\BrowserStackAssignment\browserstack.yml
+13:02:55.419 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:02:56.400 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:02:56.406 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 721098f3-ccdc-4104-a76a-7135204ceec6
+13:02:56.406 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:03:00.626 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:03:02.819 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: pboarf5ev2haahdpsxful86c9gymukaaupjvxhte
+13:03:02.820 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:03:02.821 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:03:13.679 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:03:16.440 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/pboarf5ev2haahdpsxful86c9gymukaaupjvxhte to view build report, insights, and many more debugging information all at one place!
+
+13:03:16.441 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:03:23.186 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 721098f3-ccdc-4104-a76a-7135204ceec6, testhub id: pboarf5ev2haahdpsxful86c9gymukaaupjvxhte
+13:03:23.186 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO

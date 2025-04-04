@@ -1,5 +1,5 @@
 browserstack:
-  url: "http://yaminigupta_gkor3v:Xi2VumqMuVxo6SoPsQ9E@hub-cloud.browserstack.com/wd/hub"
+  url: "http://yashsahu_Xt6IEG:FNT2V3A8vyKfospWPV4i@hub-cloud.browserstack.com/wd/hub"
 
 translate:
   api:
@@ -11,12 +11,16 @@ platforms:
   - browser: "safari"
     device: "iPhone 15 Pro Max"
     os_version: "17"
-  - browser: "chrome"
-    device: "Samsung Galaxy Tab S9"
-    os_version: "13"
+#  - browser: "chrome"
+#    device: "Samsung Galaxy Tab S9"
+#    os_version: "13"
   - browser: "chromium"
     device: "iPad 9th"
     os_version: "18"
+  - browser: "firefox"
+    os: "Windows"
+    os_version: "11"
+    browser_version: "latest"
   - browser: "chrome"
     os: "Windows"
     os_version: "11"
@@ -25,3 +29,4 @@ platforms:
     os: "Windows"
     os_version: "10"
     browser_version: "latest"
+

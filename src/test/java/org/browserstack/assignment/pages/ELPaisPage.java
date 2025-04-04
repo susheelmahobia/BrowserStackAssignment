@@ -10,11 +10,12 @@ public class ELPaisPage {
     private WebDriver driver;
 
     // Locators
-    private static final By ACCEPT_BTN = By.xpath("//button//span[text()='Accept']");
+    private static final By ACCEPT_BTN = By.xpath("//*[contains(text(),'ACCEPT AND CONTINUE')]");
     private static final By FIRST_5_ARTICLES = By.xpath("(//article)[position() <= 5]");
     private static final By ARTICLE_TITLE = By.xpath(".//h2//a");
     private static final By PARAGRAPHS = By.cssSelector("p");
     private static final By IMAGE = By.xpath(".//figure//img");
+    private static final By LANGUAGE = By.tagName("html");
 
     // Constructor
     public ELPaisPage(WebDriver driver) {
@@ -31,6 +32,10 @@ public class ELPaisPage {
 
     public List<WebElement> getArticles() {
         return driver.findElements(FIRST_5_ARTICLES);
+    }
+
+    public WebElement getLanguage() {
+        return driver.findElement(LANGUAGE);
     }
 
     public String getArticleTitle(WebElement article) {

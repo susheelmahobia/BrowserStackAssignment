@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class TestRunner {
 
     @Test
-    public static void main(String[] args) throws InterruptedException {
+    public static void runnerFunction() throws InterruptedException {
         List<Map<String, String>> platforms = Utilities.getPlatforms();
         ExecutorService executor = Executors.newFixedThreadPool(5);
         for (Map<String, String> platform : platforms) {
@@ -31,10 +31,13 @@ public class TestRunner {
                 } catch (Exception e) {
                     System.out.println("Error on platform: " + platform + " - " + e.getMessage());
                 }
-            });
+            }
+        );
         }
 
         executor.shutdown();
-        executor.awaitTermination(10, TimeUnit.MINUTES);
+        if (!executor.awaitTermination(60, TimeUnit.MINUTES)) {
+            executor.shutdownNow();  // Force shutdown if tasks aren't completed within the given time
+        }
     }
 }

@@ -4,6 +4,7 @@ import org.browserstack.assignment.setup.Setup;
 import org.browserstack.assignment.pages.ELPaisPage;
 import org.browserstack.assignment.utils.Utilities;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
 import java.net.MalformedURLException;
@@ -22,7 +23,7 @@ public class ELPaisTest extends Setup {
     public void elPaisTest() throws InterruptedException {
         driver.get("https://elpais.com/opinion/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
+        Assert.assertTrue(elPaisPage.getLanguage().getAttribute("lang").contains("es"),"website's text is not displayed in Spanish.");
         elPaisPage.acceptCookies();
 
         List<WebElement> articles = elPaisPage.getArticles();
